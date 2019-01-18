@@ -2,48 +2,111 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Nerds</title>
+    <title>Дизайн Студия "Nerds"</title>
   </head>
   <body>
-    <header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-header-logo" href="catalog.html">
-          <img src="http://234234">
+     <header class="main-header">
+	   <nav class="main-navigation">
+	    <a class="main-header-logo">
+          <img src="img/index-logo.svg" width="368" height="153" alt="Логотип студии «Nerds»">
         </a>
-		<ul class="site-navigation">
-          <li><a href="studio.html">студия</a></li>
-          <li><a href="customers.html">клиенты</a></li>
-           <li class="site-navigation-current"><a href="catalog.html">магазин</a></li>
-          <li><a href="contacts.html">контакты</a></li>
-          <li class="basket"><a href="basket.html">корзина</a></li>
-		  <h1>Магазин готовых шаблонов</h1>
-		  <img src="image1.jpg">
-		  <img src="image2.jpg">
-		  <img src="image3.jpg">
-		  <img src="image4.jpg">
-		  <img src="image5.jpg">
-		  <img src="image6.jpg">
+          <li><a href="studoi.html">студия</a></li>
+		  <li><a href="customers.html">клиенты</a></li>
+		  <li><a href="catalog.html">магазин</a></li>
+		  <li class="site-navigation-current"><a href="contacts.html">контакты</a>
+		  </li>
+         </ul>
+		 <ul class="user-basket">
+          <li><a href="basket.html">корзина</a>
+		  </li>
         </ul>
-      </nav>
-          <ul>
-		  <p>сетка</p>
-              <li>Адаптированная</li>
-              <li>Фиксированная</li>
-              <li>Резиновая</li>
-       </ul>
-	   <ul>
-          <p>особенности</p>
-              <li>Слайдер</li>
-              <li>Блок преимуществ</li>
-              <li>Новости</li>
-			  <li>Галерея</li>
-			  <li>Корзина</li>
-		<li><a href="show.html">Показать</a>
-		<h2>Sedona</h2>
-		<p>Информационный сайт для туристов</p>
-		<li><a href="price.html">9900 руб.</a>
-		
+       </nav>
+     </header>
+	 <main class="container">
+      <h1 class="page-title">Магазин готовых шаблонов</h1>
+	  <section class="filters">
+        <h2 class="visually-hidden">Фильтр услуг</h2>   
+      </section>
+        <p class="filter-title">Стоимость:</p>
+        <form action="#" id="filter-form">
+        <div class="filter">
+         <p class="filter-title">Сетка:</p>
+           <p>Адаптивная</p>
+           <p>Фиксированная</p>
+           <p>Резиновая</p>
+        </div>
+        <div class="filter-specials">
+          <p class="filter-title">Особенности:</p>	
+	      <p>Слайдер</p>
+          <p>Блок преимуществ</p>
+          <p>Новости</p>
+          <p>Галерея</p>
+          <p>Корзина</p>
+        </div>
+	    <li><a href="show.html">Показать</a>
+	    </li>
+	  <section class="catalog">
+        <h2 class="visually-hidden">Список услуг</h2>
+        <ul class="catalog-list">
+		 <li class="catalog-item">
+		  <h3><a href="example1.html">образец 1»
+		  <img src="example1.jpg" width="220" height="165" alt="образец 1">
+             </a>
+		  </h3>    
+         </li>  
         </ul>
-      </nav>
-	  <h3>давайте дружить это выгодно</h3>
-	  <p>Скидка 10% для друзей из социальных сетей.</p>
+		<ul class="catalog-list">
+		 <li class="catalog-item">
+		  <h3><a href="example2.html">образец 2»
+		  <img src="example2.jpg" width="220" height="165" alt="образец 2">
+             </a>
+		  </h3>    
+         </li>  
+        </ul>
+		<ul class="catalog-list">
+		 <li class="catalog-item">
+		  <h3><a href="example3">образец 3»
+		  <img src="example2.jpg" width="220" height="165" alt="образец 3">
+             </a>
+		  </h3>    
+         </li>  
+        </ul>
+		<ul class="catalog-list">
+		 <li class="catalog-item">
+		  <h3><a href="example4">образец 4»
+		  <img src="example4.jpg" width="220" height="165" alt="образец 4">
+             </a>
+		  </h3>    
+         </li>  
+        </ul>
+		<ul class="catalog-list">
+		 <li class="catalog-item">
+		  <h3><a href="example5">образец 5»
+		  <img src="example5.jpg" width="220" height="165" alt="образец 5">
+             </a>
+		  </h3>    
+         </li>  
+        </ul>
+		</ul>
+		<ul class="catalog-list">
+		 <li class="catalog-item">
+		  <h3><a href="example5">образец 6»
+		  <img src="example6.jpg" width="220" height="165" alt="образец 6">
+             </a>
+		  </h3>    
+         </li>  
+        </ul>  
+    </main>
+	<footer class="main-footer">
+      <div class="footer-social">
+        <b>Давайте дружить,это выгодно</b>
+		 <p>Скидка 10% для друзей из социальных сетей.</p>
+        <ul>
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+          <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+      </div>
+    </footer>
+   </body>
+</html>
