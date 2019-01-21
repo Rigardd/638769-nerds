@@ -18,7 +18,9 @@
 		  <li><a href="contacts.html">контакты</a></li>
          </ul>
 		 <ul class="user-basket">
-          <li><a href="basket.html">корзина</a></li>
+		   <li><a href="basket.html">корзина</a>
+		   </li>
+		   <img src="img/cart-icon.png" width="15px" height="15px" alt="корзина">   
         </ul>
        </nav>
      </header>
@@ -56,6 +58,24 @@
         </li>
        </ul> 
        </section>
+	   <section class="appointment">
+        <h2>Напишите нам</h2>
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+		 <p class="appointment-item">
+          <label for="appointment-date">Ваше Имя</label>
+          <input type="text" name="date" value="" placeholder="Фамилия Имя">
+		 </p>
+         <p class="appointment-item">
+          <label for="appointment-time">Ваш e-mail:</label>
+          <input type="text" name="time" value="" placeholder="email@example.ru">
+		 </p>
+         <p class="appointment-item">
+          <label for="appointment-name">Текст письма:</label>
+          <input type="text" name="name" value="" placeholder="В свободной форме">
+		 </p>
+         <button class="button" type="submit">Отправить</button>		  
+        </form> 
+      </section>
      </main>
 	 <footer class="main-footer">
       <div class="footer-social">

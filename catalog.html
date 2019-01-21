@@ -20,6 +20,7 @@
 		 <ul class="user-basket">
           <li><a href="basket.html">корзина</a>
 		  </li>
+		  <img src="img/cart-icon.png" width="15px" height="15px" alt="корзина">
         </ul>
        </nav>
      </header>
@@ -30,20 +31,62 @@
       </section>
         <p class="filter-title">Стоимость:</p>
         <form action="#" id="filter-form">
-        <div class="filter">
-         <p class="filter-title">Сетка:</p>
-           <p>Адаптивная</p>
-           <p>Фиксированная</p>
-           <p>Резиновая</p>
-        </div>
-        <div class="filter-specials">
-          <p class="filter-title">Особенности:</p>	
-	      <p>Слайдер</p>
-          <p>Блок преимуществ</p>
-          <p>Новости</p>
-          <p>Галерея</p>
-          <p>Корзина</p>
-        </div>
+
+        <h2>Сетка:</h2>
+        <ul>
+          <li>
+            <input type="radio" name="adaptiv" value="web-types" id="adaptiv">
+            <label for="adaptiv">
+              Адаптивная
+            </label>
+          </li>
+          <li>
+            <input type="radio" name="fix" value="web-types" id="fix" checked>
+            <label for="fix">
+              Фиксированная
+            </label>
+          </li>
+          <li>
+            <input type="radio" name="product-group" value="web-types" id="filter">
+            <label for="filter">
+              Резиновая
+            </label>
+          </li>
+        </ul>
+        <form action="https://echo.htmlacademy.ru">    
+        <h2>Особенности:</h2>
+        <ul>
+          <li>
+            <input type="checkbox" name="sla" id="features1" checked>
+            <label for="features1">
+              Слайдер
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" name="block" id="features2">
+            <label for="features2">
+              Блок преимуществ
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" name="news" id="features3" checked>
+            <label for="features3">
+              Новости
+            </label>
+          </li>
+		  <li>
+            <input type="checkbox" name="gallery" id="features4" checked>
+            <label for="features4">
+              Галерея
+            </label>
+          </li>
+		  <li>
+            <input type="checkbox" name="basket" id="features5" checked>
+            <label for="features5">
+              Корзина
+            </label>
+          </li>
+        </ul>
 	    <li><a href="show.html">Показать</a>
 	    </li>
 	  <section class="catalog">
@@ -96,7 +139,25 @@
              </a>
 		  </h3>    
          </li>  
-        </ul>  
+        </ul>
+     <section class="appointment">
+        <h2>Напишите нам</h2>
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+		 <p class="appointment-item">
+          <label for="appointment-date">Ваше Имя</label>
+          <input type="text" name="date" value="" placeholder="Фамилия Имя">
+		 </p>
+         <p class="appointment-item">
+          <label for="appointment-time">Ваш e-mail:</label>
+          <input type="text" name="time" value="" placeholder="email@example.ru">
+		 </p>
+         <p class="appointment-item">
+          <label for="appointment-name">Текст письма:</label>
+          <input type="text" name="name" value="" placeholder="В свободной форме">
+		 </p>
+         <button class="button" type="submit">Отправить</button>		  
+        </form> 
+      </section>		
     </main>
 	<footer class="main-footer">
       <div class="footer-social">
